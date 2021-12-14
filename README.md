@@ -26,22 +26,24 @@ Aqui será feito um CRUD completo de **POST** e **COMMENTS**, segue abaixo a est
 
 2. Crie as migrations seguindo as estruturas acima.
 
-3. Criar as rotas no arquivo **web.php**
+3. Criar as rotas e as controllers (usa o comando **php artisan make:model --mcr**, assim será criado a model, migration, controller resource que cria por padrão as controllers listada na tabela abaixo).
 
-    3.1. GET - INDEX  (listar todos os posts)
-
-    3.2. GET - INDEX  (criar view para mostrar um post específico)
-
-    3.2. GET - CREATE (criar view para criar post)
-
-    3.3. POST - STORE  (função para popular a tabela de post no banco)
-
-    3.4. GET - EDIT   (criar view para editar post)
-    
-    3.5. PUT - CREATE (função para editar a tabela de post no banco)
+|Método HTTP| Controller |O que deve ser feito                              |
+|-----------|-------------|-------------------------------------------------|
+| GET       | INDEX       |  (listar todos os posts)                        |
+| GET       | SHOW        |  (criar view para mostrar um post específico)   |
+| GET       | CREATE      |  (criar view para criar post)                   |
+| POST      | STORE       |  (função para popular a tabela de post no banco)|
+| GET       | EDIT        |  (criar view para editar post)                  |
+| PUT       | UPDATE      |  (função para editar a tabela de post no banco) |
+| DELETE    | DELETE      |  (função para editar a tabela de post no banco) |
 
 ## Observações
+
 - Use bootstrap;
+
 - Use o view do Laravel;
+
 - Pesquise sobre relacionamento no Laravel para fazer o relacionamento entre **Posts** e **Comments**
+
 - Crie um blade master para não ficar copiando e colando código HTML
