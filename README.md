@@ -44,6 +44,6 @@ Aqui será feito um CRUD completo de **POST** e **COMMENTS**, segue abaixo a est
 
 - Use o view do Laravel;
 
-- Pesquise sobre relacionamento no Laravel para fazer o relacionamento entre **Posts** e **Comments**
+- Pesquise sobre relacionamento no Laravel para fazer o relacionamento entre **Posts** e **Comments**, se preocupe somente com a migration por enquanto, depois trabalharemos com relacionamento nas controllers usando Eloquent
 
 - Crie um blade master para não ficar copiando e colando código HTML
